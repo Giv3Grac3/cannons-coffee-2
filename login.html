@@ -32,27 +32,31 @@
           </ul>
         </nav>
       </header>
-
-      <div class="feature-card">
-        <img
-          class="feature-image"
-          src="images/latte.jpg"
-          alt="Laptop with a cup of coffee and a glass of water"
-        />
-        <div class="feature-text">
-          <h2>Cafe Latte</h2>
-          <p>
-            One shot of espresso coffee plus plenty of steamed milk. Choose skim
-            milk, regular milk, or oat milk.
-          </p>
-          <p>
-            <a href="https://www.opentable.com/" target="_blank" class="button2"
-              >ORDER NOW</a
-            >
-          </p>
+      <main>
+        <!-- Name
+Email
+submit
+ -->
+        <div class="container">
+          <form class="form">
+            <!-- Name -->
+            <div class="name">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <!-- Email -->
+            <div class="email">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="psswrd"></div>
+            <div class="button">
+              <!-- Submit button -->
+              <button type="submit">Submit</button>
+            </div>
+          </form>
         </div>
-      </div>
-
+      </main>
       <footer>
         <img
           src="images/logo-nav.webp"
@@ -63,5 +67,6 @@
         <p>&copy; 2024 Cannons Coffee. All Rights Reserved.</p>
       </footer>
     </div>
+    <script src="js/custom-login.js"></script>
   </body>
 </html>
