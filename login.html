@@ -49,7 +49,16 @@ submit
               <label for="email">Email:</label>
               <input type="email" id="email" name="email" required />
             </div>
-            <div class="psswrd"></div>
+            <div class="psswrd">
+              <label for="pass">Password (8 characters minimum):</label>
+              <input
+                type="password"
+                id="pass"
+                name="password"
+                minlength="8"
+                required
+              />
+            </div>
             <div class="button">
               <!-- Submit button -->
               <button type="submit">Submit</button>

@@ -10,6 +10,9 @@ let userName = document.querySelector(".name");
 let userEmail = document.querySelector(".email");
 // console.log(userEmail);
 
+let password = document.querySelector(".password");
+// console.log(password);
+
 form.addEventListener("submit", onSubmit);
 
 function onSubmit(e) {
